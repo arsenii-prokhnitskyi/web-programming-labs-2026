@@ -1,0 +1,8 @@
+export const catalog = { title: 'Каталог автомобілів · варіант 12', products: [
+  { id: 1, name: 'Toyota Corolla', category: 'Автомобілі', price: 820000, description: 'Седан, бензин, 2021 рік.', image: 'images/car-1.svg' },
+  { id: 2, name: 'Volkswagen Golf', category: 'Автомобілі', price: 650000, description: 'Хетчбек, бензин, 2020 рік.', image: 'images/car-2.svg' },
+  { id: 3, name: 'Skoda Octavia', category: 'Автомобілі', price: 760000, description: 'Ліфтбек, дизель, 2021 рік.', image: 'images/car-3.svg' },
+  { id: 4, name: 'Renault Megane', category: 'Автомобілі', price: 580000, description: 'Універсал, дизель, 2019 рік.', image: 'images/car-4.svg' },
+  { id: 5, name: 'Hyundai i30', category: 'Автомобілі', price: 690000, description: 'Хетчбек, бензин, 2020 рік.', image: 'images/car-5.svg' },
+  { id: 6, name: 'Ford Focus', category: 'Автомобілі', price: 620000, description: 'Хетчбек, бензин, 2019 рік.', image: 'images/car-6.svg' }
+] };

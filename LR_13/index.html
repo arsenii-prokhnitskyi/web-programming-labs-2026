@@ -1,0 +1,7 @@
+<!doctype html><html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Каталог автомобілів</title><link rel="stylesheet" href="style.css"><script type="module" src="app.js"></script></head><body data-page="catalog"><main>
+<header class="shop-header"><h1 id="catalog-title">Каталог автомобілів</h1><a id="cart-link" href="basket.html" aria-label="Корзина"><span aria-hidden="true">🛒</span> <span data-i18n="cart">Корзина</span> <strong id="cart-count">0</strong></a></header>
+<p id="shop-status" role="status"></p><div id="products" class="products"></div>
+<dialog id="quantity-dialog"><form id="quantity-form"><h2 data-i18n="quantityPrompt">Вкажіть кількість:</h2><label><span data-i18n="quantity">Кількість</span><input id="quantity" type="number" min="1" max="999" step="1" value="1" required></label><p id="quantity-error" class="error" role="status"></p><button type="submit" data-i18n="add">Додати у корзину</button><button type="button" data-close="quantity-dialog" data-i18n="cancel">Скасувати</button></form></dialog>
+<dialog id="added-dialog"><h2 data-i18n="added">Товар додано</h2><a class="button" href="basket.html" data-i18n="goCart">Перейти у корзину</a><button data-close="added-dialog" data-i18n="continue">Повернутись до покупок</button></dialog>
+<dialog id="empty-dialog"><p data-i18n="empty">Корзина пуста</p><button data-close="empty-dialog" data-i18n="close">Закрити</button></dialog>
+</main></body></html>
